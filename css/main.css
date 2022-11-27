@@ -1,0 +1,186 @@
+@import url("https://fonts.cdnfonts.com/css/graphik");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,500&family=Source+Code+Pro:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li, a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  font-family: "Graphik", sans-serif;
+}
+
+.Container div h1,
+.Container div button {
+  font-family: "Epilogue", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+.Contactbtn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  width: 138px;
+  height: 48px;
+  border-radius: 6px;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(194, 192, 192, 0.6352941176);
+  display: flex;
+  position: relative;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  height: 400px;
+}
+footer .logo {
+  position: relative;
+  top: 75px;
+  left: -33px;
+}
+footer div {
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+footer div p {
+  color: #EF6D58;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+footer div li a {
+  color: #391400;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.main-site {
+  background-color: #28293E;
+  height: 400px;
+}
+.main-site h1 {
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 260px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  font-family: "Graphik", sans-serif;
+}
+.main-site h3 {
+  font-style: normal;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.64);
+  font-family: "Graphik", sans-serif;
+  font-size: 24px;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(194, 192, 192, 0.6352941176);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.Container div {
+  width: 370px;
+  height: 416px;
+  margin: 40px;
+  background-color: lightblue;
+  border-radius: 19px;
+}
+.Container h1 {
+  position: relative;
+  top: -129px;
+  left: 48px;
+  right: 21px;
+  font-size: 40px;
+}
+.Container button {
+  position: relative;
+  top: -129px;
+  left: 48px;
+  right: 21px;
+  width: 116px;
+  height: 38px;
+  border-radius: 19px;
+  border: none;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+
+nav {
+  background-color: #28293E;
+  margin: 0px;
+}
+nav div {
+  max-width: 1040px;
+  height: 67px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .Navbar-text ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 45px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 28px;
+  color: white;
+}
+nav .menuicon {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  nav {
+    background-color: #28293E;
+    margin: 0px;
+  }
+  nav div {
+    max-width: 1040px;
+    height: 67px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .Contactbtn1 {
+    display: none;
+  }
+  nav .Navbar-text ul {
+    display: none;
+  }
+  nav .menuicon {
+    display: flex;
+    color: azure;
+    justify-content: flex-end;
+  }
+}

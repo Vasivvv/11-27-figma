@@ -1,0 +1,46 @@
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #c2c0c0a2;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 400px;
+
+
+    .logo {
+        position: relative;
+        top: 75px;
+        left: -33px;
+    }
+
+    div {
+        position: relative;
+        top: 60px;
+        left: 20px;
+
+
+        p {
+            color: #EF6D58;
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        li {
+            a {
+                color: #391400;
+                ;
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+            }
+        }
+    }
+}
